@@ -72,6 +72,10 @@
    &:focus {
       color: var(--links-hover);
    }
+
+   &.current {
+    color: var(--links-hover);
+   }
 }
 
 .mobile-block__contacts {

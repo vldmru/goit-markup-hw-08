@@ -24,8 +24,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-
-  margin-bottom: 60px;
+   margin-bottom: 60px;
 
   @include tablet {
    margin-right: auto;
@@ -34,6 +33,7 @@
   @include desctop {
    display: block;
    margin-right: 94px;
+   margin-bottom: 0;
   }
 }
 
@@ -86,6 +86,11 @@
   line-height: 1.71;
   font-style: normal;
   letter-spacing: 0.03em;
+
+  &:hover,
+  &:focus {
+   color: var(--links-hover);
+  }
 }
 
 .exhortation-container {

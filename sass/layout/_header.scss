@@ -1,5 +1,12 @@
 .header-page {
   border-bottom: 1px solid #ececec;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  @include tablet {
+   padding-top: 0;
+   padding-bottom: 0;
+  }
 }
 
 .header-page-container {
@@ -107,8 +114,6 @@
   font-weight: 500;
  
   letter-spacing: 0.02em;
-  font-size: 14px;
-  line-height: 1.14;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover .header__icon-envelope,
@@ -132,8 +137,9 @@
 
    @include desctop {
       padding-top: 32px;
-      padding-bottom: 32px;
-
+      padding-bottom: 32px; 
+      font-size: 14px;
+      line-height: 1.14;
    }
 }
 
@@ -143,6 +149,7 @@
    }
 
    @include desctop {
+      margin-bottom: 0;
      margin-right: 50px;
    }
 }
