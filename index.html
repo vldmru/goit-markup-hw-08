@@ -198,11 +198,17 @@
           <ul class="team-list list-drop">
             <li class="team__biography">
               <img
-                src="./images/index/ph-1.jpg"
+                srcset="
+                  ./images/index/team/team-mobile-1-450@1x.jpg 450w,
+                  ./images/index/team/team-mobile-1-450@2x.jpg 900w
+                  ./images/index/team/team-tablet-1-354@1x.jpg 354w,
+                  ./images/index/team/team-tablet-1-354@2x.jpg 708w
+                  ./images/index/team/team-desctop-1-270@1x.jpg 270w,
+                  ./images/index/team/team-desctop-1-270@2x.jpg 540w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/index/team/team-mobile-1-450@1x.jpg"
                 alt="Photo by Christopher Walker"
-                width="270"
-                height="260"
-                class="team__photo"
               />
               <div class="biography-block">
                 <h3 class="biography__head">Ігор Дем'яненко</h3>
@@ -241,11 +247,17 @@
             </li>
             <li class="team__biography">
               <img
-                src="./images/index/ph-2.jpg"
-                alt="Photo by Kylie Evans"
-                width="270"
-                height="260"
-                class="team__photo"
+                srcset="
+                  ./images/index/team/team-mobile-2-450@1x.jpg 450w,
+                  ./images/index/team/team-mobile-2-450@2x.jpg 900w
+                  ./images/index/team/team-tablet-2-354@1x.jpg 354w,
+                  ./images/index/team/team-tablet-2-354@2x.jpg 708w
+                  ./images/index/team/team-desctop-2-270@1x.jpg 270w,
+                  ./images/index/team/team-desctop-2-270@2x.jpg 540w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/index/team/team-mobile-2-450@1x.jpg"
+                alt="Photo by Christopher Walker"
               />
               <div class="biography-block">
                 <h3 class="biography__head">Ольга Рєпіна</h3>
@@ -284,11 +296,17 @@
             </li>
             <li class="team__biography">
               <img
-                src="./images/index/ph-3.jpg"
-                alt="Photo by  Ryan Harris"
-                width="270"
-                height="260"
-                class="team__photo"
+                srcset="
+                  ./images/index/team/team-mobile-3-450@1x.jpg 450w,
+                  ./images/index/team/team-mobile-3-450@2x.jpg 900w
+                  ./images/index/team/team-tablet-3-354@1x.jpg 354w,
+                  ./images/index/team/team-tablet-3-354@2x.jpg 708w
+                  ./images/index/team/team-desctop-3-270@1x.jpg 270w,
+                  ./images/index/team/team-desctop-3-270@2x.jpg 540w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/index/team/team-mobile-3-450@1x.jpg"
+                alt="Photo by Christopher Walker"
               />
               <div class="biography-block">
                 <h3 class="biography__head">Микола Тарасов</h3>
@@ -327,11 +345,17 @@
             </li>
             <li class="team__biography">
               <img
-                src="./images/index/ph-4.jpg"
-                alt="Photo by Tyler Moore"
-                width="270"
-                height="260"
-                class="team__photo"
+                srcset="
+                  ./images/index/team/team-mobile-4-450@1x.jpg 450w,
+                  ./images/index/team/team-mobile-4-450@2x.jpg 900w
+                  ./images/index/team/team-tablet-4-354@1x.jpg 354w,
+                  ./images/index/team/team-tablet-4-354@2x.jpg 708w
+                  ./images/index/team/team-desctop-4-270@1x.jpg 270w,
+                  ./images/index/team/team-desctop-4-270@2x.jpg 540w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/index/team/team-mobile-4-450@1x.jpg"
+                alt="Photo by Christopher Walker"
               />
               <div class="biography-block">
                 <h3 class="biography__head">Михайло Єрмаков</h3>
@@ -573,8 +597,7 @@
             </label>
           </div>
 
-          <label class="modal-header"
-            >Коментар
+          <label class="modal-header">
             <textarea
               class="modal-coment"
               name="coment"
