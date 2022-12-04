@@ -56,8 +56,11 @@
   gap: 30px;
 }
 
+
+
 .projects-item {
    width: 100%;
+   max-width: 440px;
 
    @include tablet {
       width: calc((100% - 30px) / 2);
@@ -67,6 +70,8 @@
       width: calc((100% - 2 * 30px) / 3);
    }
 }
+
+
 
 .project-link {
   outline: transparent;
@@ -89,6 +94,10 @@
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+}
+
+.projects-item:first-child > .description-block {
+   padding: 20px 24px 56px 24px;
 }
 
 
