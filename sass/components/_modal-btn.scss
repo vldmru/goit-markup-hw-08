@@ -1,0 +1,24 @@
+.modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+
+  &:hover > .modal-icon {
+  fill: #2196f3;
+}
+}
+
+.modal-icon {
+  fill: var(--logotype-light-color);
+  width: 33px;
+  height: 33px;
+}
