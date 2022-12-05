@@ -239,7 +239,6 @@
 }
 
 .modal-link {
-  display: inline;
   margin-left: 7px;
 }
 
@@ -258,6 +257,10 @@
   .modal-form-check-wrapper {
     line-height: 1.71;
   }
+}
+
+.do-it {
+  display: inline;
 }
 
 .modal-form-own-check {
