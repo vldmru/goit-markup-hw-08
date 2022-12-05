@@ -632,8 +632,7 @@
 }
 
 .hero-page {
-  max-height: 400px;
-  max-width: 480px;
+  max-width: 100%;
   background-color: var(--title-background);
   background-size: cover;
   background-position: center;
@@ -652,7 +651,6 @@
 }
 @media screen and (min-width: 768px) {
   .hero-page {
-    max-width: 768px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/img-tablet-768@1x.jpg");
   }
 }
