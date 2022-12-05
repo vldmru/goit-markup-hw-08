@@ -1245,6 +1245,7 @@
 }
 
 .projects-item {
+  height: 100%;
   width: 100%;
   max-width: 440px;
 }
@@ -1270,7 +1271,13 @@
   transform: translateY(0);
 }
 
+.project-block {
+  display: flex;
+  flex-direction: column;
+}
+
 .description-block {
+  flex-grow: 1;
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
