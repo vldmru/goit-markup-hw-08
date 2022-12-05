@@ -89,7 +89,7 @@
 }
 
 .mobile-contacts__link-phone {
-   font-size: 34px;
+   font-size: 29px;
    line-height: 1.18;
    letter-spacing: 0.02em;
    color: var(--links-hover);
@@ -104,6 +104,7 @@
 
 .mobile-social__list {
    display: flex;
+   flex-wrap: wrap;
    gap: 10px;
 }
 
