@@ -1245,6 +1245,8 @@
 }
 
 .projects-item {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
   max-width: 440px;
@@ -1262,6 +1264,7 @@
 
 .project-link {
   outline: transparent;
+  height: 100%;
 }
 .project-link:hover .project-block, .project-link:focus .project-block {
   background-color: #ffffff;
@@ -1272,8 +1275,7 @@
 }
 
 .project-block {
-  display: flex;
-  flex-direction: column;
+  height: 100%;
 }
 
 .description-block {
