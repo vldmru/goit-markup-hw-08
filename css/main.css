@@ -1245,9 +1245,6 @@
 }
 
 .projects-item {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   width: 100%;
   max-width: 440px;
 }
@@ -1263,6 +1260,8 @@
 }
 
 .project-link {
+  display: flex;
+  flex-direction: column;
   outline: transparent;
   height: 100%;
 }
@@ -1272,10 +1271,6 @@
 }
 .project-link:hover .overlay, .project-link:focus .overlay {
   transform: translateY(0);
-}
-
-.project-block {
-  height: 100%;
 }
 
 .description-block {
